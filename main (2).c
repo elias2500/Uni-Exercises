@@ -2,10 +2,8 @@
 
 int rec (int n)
 {
-    int d=n; 
     if (n!=0)
-       d= d+rec(n-1);// h anadromi
-    return d;   
+        return n+rec(n-1);// h anadromi
 }
 
 int iter (int n)
