@@ -3,7 +3,7 @@
 int rec (int n)
 {
     if (n!=0)
-        return n+rec(n-1);// h anadromi
+        return n+rec(n-1);// h anadromihhkjkjkj
 }
 
 int iter (int n)
